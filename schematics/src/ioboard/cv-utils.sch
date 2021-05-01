@@ -11786,9 +11786,9 @@ DIN A3, landscape with extra doc field</description>
 <part name="IC1" library="TomW" deviceset="TL072" device="P"/>
 <part name="IC2" library="TomW" deviceset="TL072" device="P"/>
 <part name="IC3" library="TomW" deviceset="TL072" device="P"/>
-<part name="SLIDE_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
+<part name="GLIDE_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
 <part name="LEVEL_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
-<part name="SLIDE_IN" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
+<part name="GLIDE_IN" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
 <part name="LEVEL_IN" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
 <part name="OFFSET_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
 <part name="OFFSET_IN" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
@@ -11877,7 +11877,7 @@ DIN A3, landscape with extra doc field</description>
 <attribute name="NAME" x="149.86" y="182.245" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="147.32" y="190.5" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="SLIDE_OUT" gate="G$1" x="195.58" y="226.06" smashed="yes">
+<instance part="GLIDE_OUT" gate="G$1" x="195.58" y="226.06" smashed="yes">
 <attribute name="NAME" x="193.04" y="230.124" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.04" y="219.964" size="1.778" layer="96"/>
 </instance>
@@ -11885,7 +11885,7 @@ DIN A3, landscape with extra doc field</description>
 <attribute name="NAME" x="193.04" y="131.064" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.04" y="120.904" size="1.778" layer="96"/>
 </instance>
-<instance part="SLIDE_IN" gate="G$1" x="78.74" y="220.98" smashed="yes" rot="MR0">
+<instance part="GLIDE_IN" gate="G$1" x="78.74" y="220.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="73.66" y="228.6" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="81.28" y="214.884" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -12169,13 +12169,13 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SLIDE_OUT" gate="G$1" pin="1"/>
+<pinref part="GLIDE_OUT" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="223.52" x2="185.42" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="223.52" x2="185.42" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SLIDE_IN" gate="G$1" pin="1"/>
+<pinref part="GLIDE_IN" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="218.44" x2="88.9" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="218.44" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -12492,7 +12492,7 @@ DIN A3, landscape with extra doc field</description>
 </net>
 <net name="IO_SLIDE_IN" class="0">
 <segment>
-<pinref part="SLIDE_IN" gate="G$1" pin="2"/>
+<pinref part="GLIDE_IN" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
 <wire x1="91.44" y1="223.52" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
 </segment>
@@ -12518,7 +12518,7 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="OFFSET_IN" gate="G$1" pin="3"/>
 <wire x1="86.36" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="205.74" x2="177.8" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="SLIDE_OUT" gate="G$1" pin="2"/>
+<pinref part="GLIDE_OUT" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="228.6" x2="177.8" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="228.6" x2="177.8" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="228.6" x2="172.72" y2="228.6" width="0.1524" layer="91"/>
