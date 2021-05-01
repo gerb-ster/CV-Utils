@@ -382,7 +382,7 @@ PadsSameType=0
 Layer=1
 
 [Desktop]
-Screen="1920 1200"
+Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
