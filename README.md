@@ -2,7 +2,7 @@
 
 A simple CV utilities module
 
-## Status
+## Status: Work in Progress
 
 - done: first schematic & board design
 - todo: breadboard and test
