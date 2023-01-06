@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2022-06-13T14:19:31Z",
+        "CreationDate": "2023-01-06T09:35:33Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "ioboard"
         },
-        "Owner": "Gerb Sterrenburg <gerb@gerbster.nl>",
+        "Owner": "  <>",
         "Size": {
             "X": 35.56,
             "Y": 99.06
